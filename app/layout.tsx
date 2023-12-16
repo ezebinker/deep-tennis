@@ -6,8 +6,11 @@ import Navbar from "./ui/navbar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Deep Tennis",
-  description: "Deep Tennis",
+  title: {
+    template: "%s | Deep Tennis",
+    default: "Deep Tennis",
+  },
+  description: "Deep Tennis is a platform that allows tennis players to analyze the movements of their favorite players.",
 };
 
 export default function RootLayout({

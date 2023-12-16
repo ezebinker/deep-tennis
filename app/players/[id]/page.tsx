@@ -1,10 +1,16 @@
 import Loading from "@/app/(overview)/loading";
 import { dummyTennisPlayers } from "@/app/lib/dummy-tennis-players";
 import TennisPlayersVideosList from "@/app/ui/tennis-player-videos-list";
+import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Suspense } from "react";
+
+export const metadata : Metadata = {
+  title: "Tennis Player",
+  description: "Tennis Player",
+};
 
 export default function Page({ params }: { params: { id: string } }) {
   const { id } = params;
