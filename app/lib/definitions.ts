@@ -1,7 +1,7 @@
 export type Video = {
     id: number;
     title: string;
-    url: string;
+    youtube_id: string;
 }
 
 export type TennisPlayer = {

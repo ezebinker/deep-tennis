@@ -13,17 +13,17 @@ export const dummyTennisPlayers: TennisPlayer[] = [
       {
         id: 1,
         title: "Forehand slow motion",
-        url: "https://www.youtube.com/embed/coq2h9P1uwQ",
+        youtube_id: "coq2h9P1uwQ"
       },
       {
         id: 2,
         title: "Backhand Slow Motion 2019",
-        url: "https://www.youtube.com/embed/MTP99IHemNA",
+        youtube_id: "MTP99IHemNA",
       },
       {
         id: 3,
         title: "Serve Slow Motion in Court Level View",
-        url: "https://www.youtube.com/embed/B2uDfNd9QSo",
+        youtube_id: "B2uDfNd9QSo",
       },
     ],
   },
@@ -39,12 +39,12 @@ export const dummyTennisPlayers: TennisPlayer[] = [
       {
         id: 4,
         title: "Backhand Drill",
-        url: "https://www.youtube.com/embed/6cdQLPbxcpk",
+        youtube_id: "6cdQLPbxcpk",
       },
       {
         id: 5,
         title: "Forehand Slow Motion",
-        url: "https://www.youtube.com/embed/Q7Ta9DbHKjk",
+        youtube_id: "Q7Ta9DbHKjk",
       },
     ],
   },
@@ -60,7 +60,7 @@ export const dummyTennisPlayers: TennisPlayer[] = [
       {
         id: 6,
         title: "Forehand Slow Motion in Court Level View",
-        url: "https://www.youtube.com/embed/8YH0-jO14NQ",
+        youtube_id: "8YH0-jO14NQ",
       },
     ],
   },
